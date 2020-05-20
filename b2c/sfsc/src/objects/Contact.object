@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>CC_Username__c</fullName>
+        <description>This field holds commerce cloud username</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds commerce cloud username</inlineHelpText>
+        <label>CC Username</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Status__c</fullName>
+        <description>This field hold contact status when its created, updated from Salesforce Commerce Cloud.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field hold contact status when its created, updated from Salesforce Commerce Cloud.</inlineHelpText>
+        <label>Contact SCC Sync Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Synchronised</fullName>
+                    <default>false</default>
+                    <label>Synchronised</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Customer_Auth_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Auth Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>guest</fullName>
+                    <default>false</default>
+                    <label>guest</label>
+                </value>
+                <value>
+                    <fullName>registered</fullName>
+                    <default>false</default>
+                    <label>registered</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>From_SFCC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field holds value if Contact is created from Salesforce Commerce Cloud or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds value if Contact is created from Salesforce Commerce Cloud or not.</inlineHelpText>
+        <label>From SFCC</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCCLanguages__c</fullName>
+        <externalId>false</externalId>
+        <label>Languages</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCC_Customer_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field holds Salesforce Commerce Cloud Customer ID.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds Salesforce Commerce Cloud Customer ID.</inlineHelpText>
+        <label>SFCC Customer Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SFCC_Customer_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This field holds Salesforce Commerce Cloud customer number.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds Salesforce Commerce Cloud customer number.</inlineHelpText>
+        <label>SFCC Customer Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+</CustomObject>

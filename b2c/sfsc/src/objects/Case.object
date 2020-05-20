@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessProcesses>
+        <fullName>SCC_Support</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>Case_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Case_Compact_Layout</fullName>
+        <fields>CaseNumber</fields>
+        <label>Case Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>    
+    <fields>
+        <fullName>Case_SCC_Sync_Status__c</fullName>
+        <description>This is a connector field used to store case sync status</description>
+        <externalId>false</externalId>
+        <label>Case SCC Sync Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Created</fullName>
+                    <default>false</default>
+                    <label>Created</label>
+                </value>
+                <value>
+                    <fullName>Updated</fullName>
+                    <default>false</default>
+                    <label>Updated</label>
+                </value>
+                <value>
+                    <fullName>Synchronised</fullName>
+                    <default>false</default>
+                    <label>Synchronised</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Case_Sub_Type__c</fullName>
+        <description>This field holds case sub type value coming from Salesforce Commerce Cloud.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds case sub type value coming from Salesforce Commerce Cloud.</inlineHelpText>
+        <label>Case Sub Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Where is my order</fullName>
+                    <default>false</default>
+                    <label>Where is my order</label>
+                </value>
+                <value>
+                    <fullName>What is my order status</fullName>
+                    <default>false</default>
+                    <label>What is my order status</label>
+                </value>
+                <value>
+                    <fullName>Complaint</fullName>
+                    <default>false</default>
+                    <label>Complaint</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Order__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Order</label>
+        <referenceTo>Order</referenceTo>
+        <relationshipLabel>Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+     <fields>
+        <fullName>Origin</fullName>
+        <inlineHelpText>How the customer contacted us</inlineHelpText>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>SFCC_Customer_Id__c</fullName>
+        <description>This field holds salesforce commerce cloud customer id. Usually case will be connected to contact but this field is to cover edge cases.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds salesforce commerce cloud customer id. Usually case will be connected to contact but this field is to cover edge cases.</inlineHelpText>
+        <label>SFCC Customer Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCC_Customer_Number__c</fullName>
+        <description>This field holds commerce cloud customer number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds commerce cloud customer number</inlineHelpText>
+        <label>SFCC Customer Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFCC_Order_No__c</fullName>
+        <description>This field holds Salesforce Commerce Cloud Order No. This is optional field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds Salesforce Commerce Cloud Order No. This is optional field</inlineHelpText>
+        <label>SFCC Order No</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Contact_Us</fullName>
+        <active>true</active>
+        <businessProcess>SCC_Support</businessProcess>
+        <label>Contact Us</label>
+    </recordTypes>      
+</CustomObject>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers xmlns="http://www.demandware.com/xml/impex/customer/2006-10-31">
+    <customer customer-no="00004001">
+        <credentials>
+            <login>jerry.seinfeld@salesforce.com</login>
+            <password encrypted="true" encryptionScheme="scrypt">$s0$b0401$NFwia5A7MyOlRWZtCVDiyA==$urroDsR0lFhumxvrG0yu/6VLgc0OwTUIZ3sc3nsyF2o=</password>
+            <enabled-flag>true</enabled-flag>
+            <password-question/>
+            <password-answer/>
+        </credentials>
+        <profile>
+            <salutation>Mr.</salutation>
+            <title/>
+            <first-name>Jerry</first-name>
+            <second-name/>
+            <last-name>Seinfeld</last-name>
+            <suffix/>
+            <company-name>Seinfeld Productions, Inc.</company-name>
+            <job-title>Comedian / Actor</job-title>
+            <email>jerry.seinfeld@salesforce.com</email>
+            <phone-home>555-555-1212</phone-home>
+            <phone-business>555-555-1212</phone-business>
+            <phone-mobile>555-555-1212</phone-mobile>
+            <fax/>
+            <gender>1</gender>
+            <creation-date>2018-11-12T00:06:49.256Z</creation-date>
+            <last-login-time>2018-11-12T00:13:37.521Z</last-login-time>
+            <last-visit-time>2018-11-12T00:13:37.521Z</last-visit-time>
+            <preferred-locale/>
+        </profile>
+        <addresses>
+            <address address-id="Home Address" preferred="true">
+                <salutation>Mr.</salutation>
+                <title>Home Address of Jerry Seinfeild</title>
+                <first-name>Jerry</first-name>
+                <second-name/>
+                <last-name>Seinfeld</last-name>
+                <suffix/>
+                <company-name>Seinfeld Productions, Inc.</company-name>
+                <job-title/>
+                <address1>1010 SW 20th Street</address1>
+                <address2>Apt. 100</address2>
+                <suite/>
+                <postbox/>
+                <city>New York</city>
+                <postal-code>10001</postal-code>
+                <state-code>New York</state-code>
+                <country-code>US</country-code>
+                <phone>555-555-1212</phone>
+            </address>
+            <address address-id="Work Address" preferred="false">
+                <salutation/>
+                <title>Work Address of Jerry Seinfeld</title>
+                <first-name>Jerry</first-name>
+                <second-name/>
+                <last-name>Seinfeld</last-name>
+                <suffix/>
+                <company-name>NBC Studios, Inc.</company-name>
+                <job-title/>
+                <address1>30 Rockefeller Plaza</address1>
+                <address2/>
+                <suite/>
+                <postbox/>
+                <city>New York</city>
+                <postal-code>10112</postal-code>
+                <state-code>New York</state-code>
+                <country-code>US</country-code>
+                <phone>555-555-1212</phone>
+            </address>
+        </addresses>
+        <note/>
+    </customer>
+
+</customers>

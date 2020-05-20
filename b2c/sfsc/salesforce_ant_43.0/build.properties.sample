@@ -1,0 +1,38 @@
+# build.properties
+# This is the ant build configuration file that can be used to manually deploy
+# the service-cloud-connector to a Salesforce Service Cloud instance.
+# To use this file, please make a copy and rename the copy 'build.properties'.
+
+# Manual Deployment: Configuration Step 1
+# - Uncomment the sf.username and sf.password lines
+# -------------------------------------------
+# Specify the login credentials for the desired Salesforce organization
+# The sf.password field must be comprised of the account-password + the account securityToken
+# sf.username = administrator-level-username
+# sf.password = administrator-password
+
+# -------------------------------------------
+# Ignore these values when deploying manually
+# -------------------------------------------
+# sf.sessionId = <Insert your Salesforce session id here.  Use this or username/password above.  Cannot use both>
+# sf.pkgName = <Insert comma separated package names to be retrieved>
+# sf.zipFile = <Insert path of the zipfile to be retrieved>
+# sf.metadataType = <Insert metadata type name for which listMetadata or bulkRetrieve operations are to be performed>
+
+# Manual Deployment: Configuration Step 2
+# - Uncomment the sf.serverurl line
+# -------------------------------------------
+# Use 'https://login.salesforce.com' for production or developer edition (the default if not specified).
+# Use 'https://test.salesforce.com' for all sandbox environments.
+# sf.serverurl = https://test.salesforce.com
+
+# Configure the polling interval for deployment updates
+sf.maxPoll = 20
+
+# If your network requires an HTTP proxy, see http://ant.apache.org/manual/proxy.html for configuration.
+
+# Manual Deployment: Execution Step
+# -------------------------------------------
+# To deploy, please execute the command: ant deployCodeNoTestLevelSpecified
+
+

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31">
+    <order order-no="00000601">
+        <order-date>2018-11-12T00:42:22.000Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>00000601</original-order-no>
+        <currency>USD</currency>
+        <customer-locale>en_US</customer-locale>
+        <taxation>net</taxation>
+        <invoice-no>00003001</invoice-no>
+        <customer>
+            <customer-no>00004001</customer-no>
+            <customer-name>Jerry Seinfeld</customer-name>
+            <customer-email>jerry.seinfeld@salesforce.com</customer-email>
+            <billing-address>
+                <first-name>Jerry</first-name>
+                <last-name>Seinfeld</last-name>
+                <address1>1010 SW 20th Street</address1>
+                <address2>Apt. 100</address2>
+                <city>New York</city>
+                <postal-code>10001</postal-code>
+                <state-code>PA</state-code>
+                <country-code>us</country-code>
+                <phone>555-555-1212</phone>
+            </billing-address>
+        </customer>
+        <status>
+            <order-status>OPEN</order-status>
+            <shipping-status>NOT_SHIPPED</shipping-status>
+            <confirmation-status>CONFIRMED</confirmation-status>
+            <payment-status>NOT_PAID</payment-status>
+        </status>
+        <current-order-no>00000601</current-order-no>
+        <product-lineitems>
+            <product-lineitem>
+                <net-price>199.99</net-price>
+                <tax>10.00</tax>
+                <gross-price>209.99</gross-price>
+                <base-price>199.99</base-price>
+                <lineitem-text>Nintendo Wii™ Game Console</lineitem-text>
+                <tax-basis>199.99</tax-basis>
+                <position>1</position>
+                <product-id>nintendo-wii-console</product-id>
+                <product-name>Nintendo Wii™ Game Console</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003001</shipment-id>
+                <option-lineitems>
+                    <option-lineitem>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                        <base-price>0.00</base-price>
+                        <lineitem-text>Extended Warranty: None</lineitem-text>
+                        <tax-basis>0.00</tax-basis>
+                        <option-id>consoleWarranty</option-id>
+                        <value-id>000</value-id>
+                        <product-id>000</product-id>
+                    </option-lineitem>
+                </option-lineitems>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>49.99</net-price>
+                <tax>2.50</tax>
+                <gross-price>52.49</gross-price>
+                <base-price>49.99</base-price>
+                <lineitem-text>Mario and Sonic @ The 2008 Bejing Olympic Games (for Wii)</lineitem-text>
+                <tax-basis>49.99</tax-basis>
+                <position>2</position>
+                <product-id>sega-mario-sonic-olympics-2008-wii</product-id>
+                <product-name>Mario and Sonic @ The 2008 Bejing Olympic Games (for Wii)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003001</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>39.99</net-price>
+                <tax>2.00</tax>
+                <gross-price>41.99</gross-price>
+                <base-price>39.99</base-price>
+                <lineitem-text>We Ski (for Wii)</lineitem-text>
+                <tax-basis>39.99</tax-basis>
+                <position>3</position>
+                <product-id>namco-we-ski-wii</product-id>
+                <product-name>We Ski (for Wii)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003001</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>1599.99</net-price>
+                <tax>80.00</tax>
+                <gross-price>1679.99</gross-price>
+                <base-price>1599.99</base-price>
+                <lineitem-text>Mitsubishi 148 Serives 40" LCD High Definition Television</lineitem-text>
+                <tax-basis>1599.99</tax-basis>
+                <position>4</position>
+                <product-id>mitsubishi-lt-40148</product-id>
+                <product-name>Mitsubishi 148 Serives 40" LCD High Definition Television</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003001</shipment-id>
+                <option-lineitems>
+                    <option-lineitem>
+                        <net-price>0.00</net-price>
+                        <tax>0.00</tax>
+                        <gross-price>0.00</gross-price>
+                        <base-price>0.00</base-price>
+                        <lineitem-text>Extended Warranty: None</lineitem-text>
+                        <tax-basis>0.00</tax-basis>
+                        <option-id>tvWarranty</option-id>
+                        <value-id>000</value-id>
+                        <product-id>000</product-id>
+                    </option-lineitem>
+                </option-lineitems>
+                <shipping-lineitem>
+                    <net-price>25.00</net-price>
+                    <tax>1.25</tax>
+                    <gross-price>26.25</gross-price>
+                    <base-price>25.00</base-price>
+                    <lineitem-text>Item Shipping Cost (Surcharge)</lineitem-text>
+                    <tax-basis>25.00</tax-basis>
+                    <quantity unit="">1.0</quantity>
+                    <tax-rate>0.05</tax-rate>
+                    <type>surcharge</type>
+                </shipping-lineitem>
+                <gift>false</gift>
+            </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+            <shipping-lineitem>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+                <base-price>15.99</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>15.99</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>00003001</shipment-id>
+                <tax-rate>0.05</tax-rate>
+            </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+            <shipment shipment-id="00003001">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>001</shipping-method>
+                <shipping-address>
+                    <first-name>Jerry</first-name>
+                    <last-name>Seinfeld</last-name>
+                    <address1>1010 SW 20th Street</address1>
+                    <address2>Apt. 100</address2>
+                    <city>New York</city>
+                    <postal-code>10001</postal-code>
+                    <state-code>PA</state-code>
+                    <country-code>us</country-code>
+                    <phone>555-555-1212</phone>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>1889.96</net-price>
+                        <tax>94.50</tax>
+                        <gross-price>1984.46</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>1889.96</net-price>
+                        <tax>94.50</tax>
+                        <gross-price>1984.46</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>40.99</net-price>
+                        <tax>2.05</tax>
+                        <gross-price>43.04</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>40.99</net-price>
+                        <tax>2.05</tax>
+                        <gross-price>43.04</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>1930.95</net-price>
+                        <tax>96.55</tax>
+                        <gross-price>2027.50</gross-price>
+                    </shipment-total>
+                </totals>
+            </shipment>
+        </shipments>
+        <totals>
+            <merchandize-total>
+                <net-price>1889.96</net-price>
+                <tax>94.50</tax>
+                <gross-price>1984.46</gross-price>
+            </merchandize-total>
+            <adjusted-merchandize-total>
+                <net-price>1889.96</net-price>
+                <tax>94.50</tax>
+                <gross-price>1984.46</gross-price>
+            </adjusted-merchandize-total>
+            <shipping-total>
+                <net-price>40.99</net-price>
+                <tax>2.05</tax>
+                <gross-price>43.04</gross-price>
+            </shipping-total>
+            <adjusted-shipping-total>
+                <net-price>40.99</net-price>
+                <tax>2.05</tax>
+                <gross-price>43.04</gross-price>
+            </adjusted-shipping-total>
+            <order-total>
+                <net-price>1930.95</net-price>
+                <tax>96.55</tax>
+                <gross-price>2027.50</gross-price>
+            </order-total>
+        </totals>
+        <payments>
+            <payment>
+                <credit-card>
+                    <card-type>VISA</card-type>
+                    <card-number>XXXX-XXXX-XXXX-1111</card-number>
+                    <card-holder>My Credit Card</card-holder>
+                    <expiration-month>1</expiration-month>
+                    <expiration-year>2020</expiration-year>
+                </credit-card>
+                <amount>2027.50</amount>
+                <processor-id>BASIC_CREDIT</processor-id>
+                <transaction-id>00000601</transaction-id>
+            </payment>
+        </payments>
+        <remoteHost>204.14.236.215</remoteHost>
+        <custom-attributes>
+            <custom-attribute attribute-id="sscSyncResponseText">
+                <value>Successfully Exported</value>
+            </custom-attribute>
+            <custom-attribute attribute-id="sscSyncStatus">updated</custom-attribute>
+            <custom-attribute attribute-id="sscid">8010j0000003Hr0AAE</custom-attribute>
+        </custom-attributes>
+    </order>
+
+</orders>

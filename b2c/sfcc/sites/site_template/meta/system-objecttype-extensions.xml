@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="ServiceCredential">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="clientid">
+                <display-name xml:lang="x-default">Consumer Key</display-name>
+                <description xml:lang="x-default">Represents the Consumer Key associated to the CommerceCloudConnect Connected App in Service Cloud.</description>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="clientsecret">
+                <display-name xml:lang="x-default">Consumer Secret</display-name>
+                <description xml:lang="x-default">Represents the Consumer Secret associated to the CommerceCloudConnect Connected App in Service Cloud.</description>
+                <type>password</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="serviceCloudConnectorAttributes">
+                <display-name xml:lang="x-default">Service Cloud Connector Attributes</display-name>
+                <description xml:lang="x-default">Represents the service-specific custom system properties leveraged by the Service Cloud Connector.</description>
+                <attribute attribute-id="clientid"/>
+                <attribute attribute-id="clientsecret"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="Profile">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="sscSyncResponseText">
+                <display-name xml:lang="x-default">Salesforce Sync Response Text</display-name>
+                <description xml:lang="x-default">Stores the response from last processed Service Cloud Customer record synchronization attempt.</description>
+                <type>set-of-string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="sscSyncStatus">
+                <display-name xml:lang="x-default">Salesforce Service Cloud SyncStatus</display-name>
+                <description xml:lang="x-default">Describes the Salesforce Service Cloud Customer Record Synchronization Status.</description>
+                <type>enum-of-string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <value-definitions>
+                    <value-definition>
+                        <display xml:lang="x-default">Account Exported</display>
+                        <value>exported</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Account Created</display>
+                        <value>created</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Account Updated</display>
+                        <value>updated</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+            <attribute-definition attribute-id="sscid">
+                <display-name xml:lang="x-default">Salesforce Service Cloud Account ID</display-name>
+                <description xml:lang="x-default">Represents the Salesforce Service Cloud AccountId found on a given PersonAccount.</description>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="ssccid">
+                <display-name xml:lang="x-default">Salesforce Service Cloud Contact ID</display-name>
+                <description xml:lang="x-default">Represents the Salesforce Service Cloud ContactId found on a given PersonAccount.</description>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ServiceCloudConnector">
+                <display-name xml:lang="x-default">Service Cloud Connector</display-name>
+                <attribute attribute-id="sscSyncStatus"/>
+                <attribute attribute-id="sscid"/>
+                <attribute attribute-id="ssccid"/>
+                <attribute attribute-id="sscSyncResponseText"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="Order">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="sscSyncResponseText">
+                <display-name xml:lang="x-default">Salesforce Sync Response Text</display-name>
+                <description xml:lang="x-default">Stores the response from last processed Service Cloud Order record synchronization attempt.</description>
+                <type>set-of-string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="sscSyncStatus">
+                <display-name xml:lang="x-default">Salesforce Service Cloud SyncStatus</display-name>
+                <description xml:lang="x-default">Describes the Salesforce Service Cloud Order Synchronization Status.</description>
+                <type>enum-of-string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <value-definitions>
+                    <value-definition>
+                        <display xml:lang="x-default">Order Created</display>
+                        <value>created</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Order Exported</display>
+                        <value>exported</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Order Updated</display>
+                        <value>updated</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+            <attribute-definition attribute-id="sscid">
+                <display-name xml:lang="x-default">Salesforce Service Cloud Order ID</display-name>
+                <description xml:lang="x-default">Represents the Salesforce Service Cloud OrderId</description>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ServiceCloudConnector">
+                <display-name xml:lang="x-default">Service Cloud Connector</display-name>
+                <attribute attribute-id="sscSyncStatus"/>
+                <attribute attribute-id="sscSyncResponseText"/>
+                <attribute attribute-id="sscid"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="SitePreferences">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="sscIsAsync">
+                <display-name xml:lang="x-default">Is Async Mode Enabled?</display-name>
+                <description xml:lang="x-default">When enabled, synchronization occurs in real-time with the jobs serving as a fallback (jobs then only process failed real-time synchronizations).  Otherwise, all cross-cloud synchronization will be driven by the SCC jobs.</description>
+                <type>boolean</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <default-value>true</default-value>
+            </attribute-definition>
+            <attribute-definition attribute-id="bulkCallThreshold">
+                <display-name xml:lang="x-default">No. of Objects in Bulk-Create Call</display-name>
+                <description xml:lang="x-default">Represents the total number of customers or orders to process during the execution of a Service Cloud Connector synchronization jobs.</description>
+                <type>double</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-value>1.0</min-value>
+                <default-value>10.0</default-value>
+            </attribute-definition>
+        </custom-attribute-definitions>
+         <group-definitions>
+            <attribute-group group-id="ServiceCloudConnector">
+                <display-name xml:lang="x-default">Service Cloud Connector</display-name>
+                <attribute attribute-id="sscIsAsync"/>
+                <attribute attribute-id="bulkCallThreshold"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+</metadata>

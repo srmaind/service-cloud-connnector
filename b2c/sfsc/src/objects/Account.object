@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">  
+    <fields>
+        <fullName>SCCActive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is used in the Salesforce Connector code</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If this is unchecked the customers online account has been disabled</inlineHelpText>
+        <label>Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SFCC_Last_Login_Time__c</fullName>
+        <description>This field will store the last login time of the customer from CC</description>
+        <externalId>false</externalId>
+        <label>Last Login Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SFCC_Last_Visit_Time__c</fullName>
+        <description>This field will store the last visit time of the customer from CC</description>
+        <externalId>false</externalId>
+        <label>Last Visit Time</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>SFCC_update__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SFCC update</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>SCC_Customers</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>PC_EMAIL</columns>
+        <columns>SFCC_Customer_Number__pc</columns>
+        <columns>Contact_Status__pc</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>ACCOUNT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>PersonAccount.PersonAccount</value>
+        </filters>
+        <label>SCC Customers</label>
+    </listViews>
+    <recordTypes>
+        <fullName>Business_Account</fullName>
+        <active>true</active>
+        <label>Business Account</label>     
+    </recordTypes>    
+</CustomObject>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>SCC_Account_Compact_Layout</fullName>
+        <fields>PersonTitle</fields>
+        <fields>Name</fields>
+        <fields>CC_Username__pc</fields>
+        <fields>Phone</fields>
+        <fields>PersonEmail</fields>
+        <fields>SFCC_Customer_Number__pc</fields>
+        <fields>SFCC_Customer_Id__pc</fields>
+        <fields>Contact_Status__pc</fields>
+        <label>SCC Account Compact Layout</label>
+    </compactLayouts>
+    <compactLayoutAssignment>SCC_Account_Compact_Layout</compactLayoutAssignment>    
+    <enableHistory>false</enableHistory>
+    <recordTypes>
+        <fullName>PersonAccount</fullName>
+        <active>true</active>
+        <label>Person Account</label>
+        <compactLayoutAssignment>SCC_Account_Compact_Layout</compactLayoutAssignment>
+        <picklistValues>
+            <picklist>Contact_Status__pc</picklist>
+            <values>
+                <fullName>Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synchronised</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Updated</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Auth_Status__pc</picklist>
+            <values>
+                <fullName>guest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>registered</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

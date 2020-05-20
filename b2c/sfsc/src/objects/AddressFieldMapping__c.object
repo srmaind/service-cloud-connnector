@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>This object holds attribute mapping between commerce cloud address attributes and NSSCCConnector__Address__c attributes</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CC_Attribute__c</fullName>
+        <description>This field holds CC Attribute Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds CC Attribute Name</inlineHelpText>
+        <label>CC Attribute</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Enable_Patch__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This setting check if this attribute will be patched in commerce cloud from CRM or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This setting check if this attribute will be patched in commerce cloud from CRM or not</inlineHelpText>
+        <label>Enable Patch</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Enable_Sync__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This setting check if this attribute will be synchronised from commerce cloud or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This setting check if this attribute will be synchronised from commerce cloud or not</inlineHelpText>
+        <label>Enable Sync</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Field_Api_Name__c</fullName>
+        <description>This field holds salesforce object attribute api name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field holds salesforce object attribute api name</inlineHelpText>
+        <label>Field Api Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>AddressFieldMapping</label>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+	<contactEmail>dummy@salesforce.com</contactEmail>
+    <label>CommerceCloudConnector</label>
+    <oauthConfig>
+        <callbackUrl>https://test.salesforce.com/services/oauth2/success</callbackUrl>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

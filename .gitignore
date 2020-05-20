@@ -1,0 +1,49 @@
+# Webstorm / Intellij Project Directory
+/.idea/
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+### macOS template
+# General
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Code Recommenders
+.recommenders/
+
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# misc
+/.scratch
+
+# Ignore dwupload config
+dw.json
+
+# Ignore the build properties file for the Service Cloud codebase
+/b2c/sfsc/salesforce_ant_43.0/build.properties

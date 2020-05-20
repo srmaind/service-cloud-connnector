@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns="http://www.demandware.com/xml/impex/order/2006-10-31">
+    <order order-no="00000602">
+        <order-date>2018-11-12T00:53:19.866Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>00000602</original-order-no>
+        <currency>USD</currency>
+        <customer-locale>en_US</customer-locale>
+        <taxation>net</taxation>
+        <invoice-no>00003002</invoice-no>
+        <customer>
+            <customer-name>George Costanza</customer-name>
+            <customer-email>george.costanza@salesforce.com</customer-email>
+            <billing-address>
+                <first-name>George</first-name>
+                <last-name>Costanza</last-name>
+                <address1>2015 NW. 102nd Street</address1>
+                <address2>Apt. 2020</address2>
+                <city>New York</city>
+                <postal-code>10010</postal-code>
+                <state-code>NY</state-code>
+                <country-code>us</country-code>
+                <phone>555-555-1212</phone>
+            </billing-address>
+        </customer>
+        <status>
+            <order-status>OPEN</order-status>
+            <shipping-status>NOT_SHIPPED</shipping-status>
+            <confirmation-status>CONFIRMED</confirmation-status>
+            <payment-status>NOT_PAID</payment-status>
+        </status>
+        <current-order-no>00000602</current-order-no>
+        <product-lineitems>
+            <product-lineitem>
+                <net-price>299.99</net-price>
+                <tax>15.00</tax>
+                <gross-price>314.99</gross-price>
+                <base-price>299.99</base-price>
+                <lineitem-text>Black Flat Front Wool Suit</lineitem-text>
+                <tax-basis>299.99</tax-basis>
+                <position>1</position>
+                <product-id>750518703015</product-id>
+                <product-name>Black Flat Front Wool Suit</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+                <price-adjustments>
+                    <price-adjustment>
+                        <net-price>-60.00</net-price>
+                        <tax>-3.00</tax>
+                        <gross-price>-63.00</gross-price>
+                        <base-price>-60.00</base-price>
+                        <lineitem-text>20% Off on all Suits</lineitem-text>
+                        <tax-basis>-60.00</tax-basis>
+                        <promotion-id>sg-suits-promotion</promotion-id>
+                        <campaign-id>sg-suits-and-shirts</campaign-id>
+                    </price-adjustment>
+                </price-adjustments>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>299.99</net-price>
+                <tax>15.00</tax>
+                <gross-price>314.99</gross-price>
+                <base-price>299.99</base-price>
+                <lineitem-text>Charcoal Flat Front Athletic Fit Shadow Striped Wool Suit</lineitem-text>
+                <tax-basis>299.99</tax-basis>
+                <position>2</position>
+                <product-id>640188016648</product-id>
+                <product-name>Charcoal Flat Front Athletic Fit Shadow Striped Wool Suit</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+                <price-adjustments>
+                    <price-adjustment>
+                        <net-price>-60.00</net-price>
+                        <tax>-3.00</tax>
+                        <gross-price>-63.00</gross-price>
+                        <base-price>-60.00</base-price>
+                        <lineitem-text>20% Off on all Suits</lineitem-text>
+                        <tax-basis>-60.00</tax-basis>
+                        <promotion-id>sg-suits-promotion</promotion-id>
+                        <campaign-id>sg-suits-and-shirts</campaign-id>
+                    </price-adjustment>
+                </price-adjustments>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>49.99</net-price>
+                <tax>2.50</tax>
+                <gross-price>52.49</gross-price>
+                <base-price>49.99</base-price>
+                <lineitem-text>No-Iron Textured Dress Shirt</lineitem-text>
+                <tax-basis>49.99</tax-basis>
+                <position>3</position>
+                <product-id>708141676336</product-id>
+                <product-name>No-Iron Textured Dress Shirt</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+                <price-adjustments>
+                    <price-adjustment>
+                        <net-price>-10.00</net-price>
+                        <tax>-0.50</tax>
+                        <gross-price>-10.50</gross-price>
+                        <base-price>-10.00</base-price>
+                        <lineitem-text>20% Off on all Shirts</lineitem-text>
+                        <tax-basis>-10.00</tax-basis>
+                        <promotion-id>sg-shirts-promotion</promotion-id>
+                        <campaign-id>sg-suits-and-shirts</campaign-id>
+                    </price-adjustment>
+                </price-adjustments>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>135.00</net-price>
+                <tax>6.75</tax>
+                <gross-price>141.75</gross-price>
+                <base-price>135.00</base-price>
+                <lineitem-text>Modern Striped Dress Shirt</lineitem-text>
+                <tax-basis>135.00</tax-basis>
+                <position>4</position>
+                <product-id>69309284-4</product-id>
+                <product-name>Modern Striped Dress Shirt</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+                <price-adjustments>
+                    <price-adjustment>
+                        <net-price>-27.00</net-price>
+                        <tax>-1.35</tax>
+                        <gross-price>-28.35</gross-price>
+                        <base-price>-27.00</base-price>
+                        <lineitem-text>20% Off on all Shirts</lineitem-text>
+                        <tax-basis>-27.00</tax-basis>
+                        <promotion-id>sg-shirts-promotion</promotion-id>
+                        <campaign-id>sg-suits-and-shirts</campaign-id>
+                    </price-adjustment>
+                </price-adjustments>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>29.99</net-price>
+                <tax>1.50</tax>
+                <gross-price>31.49</gross-price>
+                <base-price>29.99</base-price>
+                <lineitem-text>Checked Silk Tie</lineitem-text>
+                <tax-basis>29.99</tax-basis>
+                <position>5</position>
+                <product-id>682875090845</product-id>
+                <product-name>Checked Silk Tie</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>29.99</net-price>
+                <tax>1.50</tax>
+                <gross-price>31.49</gross-price>
+                <base-price>29.99</base-price>
+                <lineitem-text>Striped Silk Tie</lineitem-text>
+                <tax-basis>29.99</tax-basis>
+                <position>6</position>
+                <product-id>793775362380</product-id>
+                <product-name>Striped Silk Tie</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>29.99</net-price>
+                <tax>1.50</tax>
+                <gross-price>31.49</gross-price>
+                <base-price>29.99</base-price>
+                <lineitem-text>Solid Silk Tie</lineitem-text>
+                <tax-basis>29.99</tax-basis>
+                <position>7</position>
+                <product-id>029407331258</product-id>
+                <product-name>Solid Silk Tie</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003002</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+            <shipping-lineitem>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+                <base-price>15.99</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>15.99</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>00003002</shipment-id>
+                <tax-rate>0.05</tax-rate>
+            </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+            <shipment shipment-id="00003002">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>001</shipping-method>
+                <shipping-address>
+                    <first-name>George</first-name>
+                    <last-name>Costanza</last-name>
+                    <address1>2015 NW. 102nd Street</address1>
+                    <address2>Apt. 2020</address2>
+                    <city>New York</city>
+                    <postal-code>10010</postal-code>
+                    <state-code>NY</state-code>
+                    <country-code>us</country-code>
+                    <phone>555-555-1212</phone>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>874.94</net-price>
+                        <tax>43.75</tax>
+                        <gross-price>918.69</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>717.94</net-price>
+                        <tax>35.90</tax>
+                        <gross-price>753.84</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>15.99</net-price>
+                        <tax>0.80</tax>
+                        <gross-price>16.79</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>15.99</net-price>
+                        <tax>0.80</tax>
+                        <gross-price>16.79</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>733.93</net-price>
+                        <tax>36.70</tax>
+                        <gross-price>770.63</gross-price>
+                    </shipment-total>
+                </totals>
+            </shipment>
+        </shipments>
+        <totals>
+            <merchandize-total>
+                <net-price>874.94</net-price>
+                <tax>43.75</tax>
+                <gross-price>918.69</gross-price>
+            </merchandize-total>
+            <adjusted-merchandize-total>
+                <net-price>717.94</net-price>
+                <tax>35.90</tax>
+                <gross-price>753.84</gross-price>
+            </adjusted-merchandize-total>
+            <shipping-total>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+            </shipping-total>
+            <adjusted-shipping-total>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+            </adjusted-shipping-total>
+            <order-total>
+                <net-price>733.93</net-price>
+                <tax>36.70</tax>
+                <gross-price>770.63</gross-price>
+            </order-total>
+        </totals>
+        <payments>
+            <payment>
+                <credit-card>
+                    <card-type>VISA</card-type>
+                    <card-number>XXXX-XXXX-XXXX-1111</card-number>
+                    <card-holder>George Costanza</card-holder>
+                    <expiration-month>1</expiration-month>
+                    <expiration-year>2020</expiration-year>
+                </credit-card>
+                <amount>770.63</amount>
+                <processor-id>BASIC_CREDIT</processor-id>
+                <transaction-id>00000602</transaction-id>
+            </payment>
+        </payments>
+        <remoteHost>204.14.236.215</remoteHost>
+    </order>
+
+    <order order-no="00000701">
+        <order-date>2018-11-12T01:02:59.964Z</order-date>
+        <created-by>storefront</created-by>
+        <original-order-no>00000701</original-order-no>
+        <currency>USD</currency>
+        <customer-locale>en_US</customer-locale>
+        <taxation>net</taxation>
+        <invoice-no>00003501</invoice-no>
+        <customer>
+            <customer-name>George Costanza</customer-name>
+            <customer-email>george.costanza@salesforce.com</customer-email>
+            <billing-address>
+                <first-name>George</first-name>
+                <last-name>Costanza</last-name>
+                <address1>2015 NW. 102nd Street</address1>
+                <address2>Apt. 2010</address2>
+                <city>New York</city>
+                <postal-code>10010</postal-code>
+                <state-code>NY</state-code>
+                <country-code>us</country-code>
+                <phone>555-555-1212</phone>
+            </billing-address>
+        </customer>
+        <status>
+            <order-status>NEW</order-status>
+            <shipping-status>NOT_SHIPPED</shipping-status>
+            <confirmation-status>CONFIRMED</confirmation-status>
+            <payment-status>NOT_PAID</payment-status>
+        </status>
+        <current-order-no>00000701</current-order-no>
+        <product-lineitems>
+            <product-lineitem>
+                <net-price>99.99</net-price>
+                <tax>5.00</tax>
+                <gross-price>104.99</gross-price>
+                <base-price>99.99</base-price>
+                <lineitem-text>Men's Classic Deer Gloves</lineitem-text>
+                <tax-basis>99.99</tax-basis>
+                <position>1</position>
+                <product-id>061492183589</product-id>
+                <product-name>Men's Classic Deer Gloves</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003501</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>119.99</net-price>
+                <tax>6.00</tax>
+                <gross-price>125.99</gross-price>
+                <base-price>119.99</base-price>
+                <lineitem-text>Men's Yarmouth Gloves</lineitem-text>
+                <tax-basis>119.99</tax-basis>
+                <position>2</position>
+                <product-id>061492273709</product-id>
+                <product-name>Men's Yarmouth Gloves</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003501</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>99.99</net-price>
+                <tax>5.00</tax>
+                <gross-price>104.99</gross-price>
+                <base-price>99.99</base-price>
+                <lineitem-text>Men's Resolve Gloves</lineitem-text>
+                <tax-basis>99.99</tax-basis>
+                <position>3</position>
+                <product-id>061492216690</product-id>
+                <product-name>Men's Resolve Gloves</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003501</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>99.99</net-price>
+                <tax>5.00</tax>
+                <gross-price>104.99</gross-price>
+                <base-price>99.99</base-price>
+                <lineitem-text>Laptop Messenger (16L)</lineitem-text>
+                <tax-basis>99.99</tax-basis>
+                <position>4</position>
+                <product-id>P0138</product-id>
+                <product-name>Laptop Messenger (16L)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003501</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+            <product-lineitem>
+                <net-price>99.99</net-price>
+                <tax>5.00</tax>
+                <gross-price>104.99</gross-price>
+                <base-price>99.99</base-price>
+                <lineitem-text>Upright Case (33L - 3.7Kg)</lineitem-text>
+                <tax-basis>99.99</tax-basis>
+                <position>5</position>
+                <product-id>P0150</product-id>
+                <product-name>Upright Case (33L - 3.7Kg)</product-name>
+                <quantity unit="">1.0</quantity>
+                <tax-rate>0.05</tax-rate>
+                <shipment-id>00003501</shipment-id>
+                <gift>false</gift>
+            </product-lineitem>
+        </product-lineitems>
+        <shipping-lineitems>
+            <shipping-lineitem>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+                <base-price>15.99</base-price>
+                <lineitem-text>Shipping</lineitem-text>
+                <tax-basis>15.99</tax-basis>
+                <item-id>STANDARD_SHIPPING</item-id>
+                <shipment-id>00003501</shipment-id>
+                <tax-rate>0.05</tax-rate>
+            </shipping-lineitem>
+        </shipping-lineitems>
+        <shipments>
+            <shipment shipment-id="00003501">
+                <status>
+                    <shipping-status>NOT_SHIPPED</shipping-status>
+                </status>
+                <shipping-method>001</shipping-method>
+                <shipping-address>
+                    <first-name>George</first-name>
+                    <last-name>Costanza</last-name>
+                    <address1>2015 NW. 102nd Street</address1>
+                    <address2>Apt. 2010</address2>
+                    <city>New York</city>
+                    <postal-code>10010</postal-code>
+                    <state-code>NY</state-code>
+                    <country-code>us</country-code>
+                    <phone>555-555-1212</phone>
+                </shipping-address>
+                <gift>false</gift>
+                <totals>
+                    <merchandize-total>
+                        <net-price>519.95</net-price>
+                        <tax>26.00</tax>
+                        <gross-price>545.95</gross-price>
+                    </merchandize-total>
+                    <adjusted-merchandize-total>
+                        <net-price>519.95</net-price>
+                        <tax>26.00</tax>
+                        <gross-price>545.95</gross-price>
+                    </adjusted-merchandize-total>
+                    <shipping-total>
+                        <net-price>15.99</net-price>
+                        <tax>0.80</tax>
+                        <gross-price>16.79</gross-price>
+                    </shipping-total>
+                    <adjusted-shipping-total>
+                        <net-price>15.99</net-price>
+                        <tax>0.80</tax>
+                        <gross-price>16.79</gross-price>
+                    </adjusted-shipping-total>
+                    <shipment-total>
+                        <net-price>535.94</net-price>
+                        <tax>26.80</tax>
+                        <gross-price>562.74</gross-price>
+                    </shipment-total>
+                </totals>
+            </shipment>
+        </shipments>
+        <totals>
+            <merchandize-total>
+                <net-price>519.95</net-price>
+                <tax>26.00</tax>
+                <gross-price>545.95</gross-price>
+            </merchandize-total>
+            <adjusted-merchandize-total>
+                <net-price>519.95</net-price>
+                <tax>26.00</tax>
+                <gross-price>545.95</gross-price>
+            </adjusted-merchandize-total>
+            <shipping-total>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+            </shipping-total>
+            <adjusted-shipping-total>
+                <net-price>15.99</net-price>
+                <tax>0.80</tax>
+                <gross-price>16.79</gross-price>
+            </adjusted-shipping-total>
+            <order-total>
+                <net-price>535.94</net-price>
+                <tax>26.80</tax>
+                <gross-price>562.74</gross-price>
+            </order-total>
+        </totals>
+        <payments>
+            <payment>
+                <credit-card>
+                    <card-type>VISA</card-type>
+                    <card-number>XXXX-XXXX-XXXX-1111</card-number>
+                    <card-holder>George Costanza</card-holder>
+                    <expiration-month>1</expiration-month>
+                    <expiration-year>2020</expiration-year>
+                </credit-card>
+                <amount>562.74</amount>
+                <processor-id>BASIC_CREDIT</processor-id>
+                <transaction-id>00000701</transaction-id>
+            </payment>
+        </payments>
+        <remoteHost>204.14.236.215</remoteHost>
+    </order>
+
+</orders>

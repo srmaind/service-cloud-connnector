@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+	<labels>
+        <fullName>SCC_WebCaseReplyToAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_WebCaseReplyToAddress</shortDescription>
+        <value>[LABEL_SCC_WebCaseReplyToAddress]</value>
+    </labels>
+    <labels>
+        <fullName>SCC_WebCaseToAddress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_WebCaseToAddress</shortDescription>
+        <value>[LABEL_SCC_WebCaseToAddress]</value>
+    </labels>
+	<labels>
+        <fullName>SCC_AgentProfile</fullName>
+        <categories>Profile Name</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgentProfile</shortDescription>
+        <value>Agent</value>
+    </labels>
+    <labels>
+        <fullName>SCC_Email2Case_Address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email2Case Address</shortDescription>
+        <value>[LABEL_SCC_Email2Case_Address]</value>
+    </labels>
+    <labels>
+        <fullName>SCC_Email2Case_Email_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email2Case Email Template</shortDescription>
+        <value>Auto response for Email to Case</value>
+    </labels>
+    <labels>
+        <fullName>SCC_HelpReq_NotAllowed</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelpReq_NotAllowed</shortDescription>
+        <value>Help request is not allowed.</value>
+    </labels>
+    <labels>
+        <fullName>SCC_HelpReq_PostFailed</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelpReq_PostFailed</shortDescription>
+        <value>Help request failed to post. Please try later!</value>
+    </labels>
+    <labels>
+        <fullName>SCC_HelpReq_Posted</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelpReq_Posted</shortDescription>
+        <value>Help request is posted to group.</value>
+    </labels>
+    <labels>
+        <fullName>SCC_HelpReq_ProcessFailed</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelpReq_ProcessFailed</shortDescription>
+        <value>Help request failed. Contact your administrator!</value>
+    </labels>
+    <labels>
+        <fullName>SCC_HelpRequestsGroupId</fullName>
+        <categories>Group Id</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HelpRequestsGroupId</shortDescription>
+        <value>[LABEL_SCC_HelpRequestsGroupId]</value>
+    </labels>
+    <labels>
+        <fullName>SCC_ManagerProfile</fullName>
+        <categories>Profile Name</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerProfile</shortDescription>
+        <value>Manager</value>
+    </labels>
+    <labels>
+        <fullName>SCC_Thread_Id_RegEX</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Thread Id RegEX</shortDescription>
+        <value>ref:.*:ref</value>
+    </labels>
+	<labels>
+        <fullName>SCC_Missing_Default_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_Missing_Default_Account</shortDescription>
+        <value>Order synchronization has failed due to missing default account in CRM. Please contact Admin of CRM.</value>
+    </labels>
+	<labels>
+        <fullName>SCC_ErrorFromApex</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_ErrorFromApex</shortDescription>
+        <value>An error occured:</value>
+    </labels>
+    <labels>
+        <fullName>SCC_ErrorFromCC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_ErrorFromCC</shortDescription>
+        <value>Error returned by Commerce Cloud:</value>
+    </labels>
+    <labels>
+        <fullName>SCC_ExtDataSourceAuthMiss</fullName>
+        <categories>Commerce Cloud Authentication</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SCC_ExtDataSourceAuthMiss</shortDescription>
+        <value>You don&apos;t have permission to view this data. Ask your administrator to set up authentication for the external data source.</value>
+    </labels>
+</CustomLabels>
